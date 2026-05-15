@@ -100,7 +100,7 @@ div > section {
     }
     
     h1 {
-        font-size: 340%;
+        font-size: 310%;
     }
     
     h1 > span {
@@ -108,10 +108,18 @@ div > section {
         padding-bottom: 10.5%;
     }
     
+    h2 {
+        font-size: 135%;
+    }
+    
     div {
         width: 97%;
         margin: 5% auto;
         flex-direction: column;
+    }
+    
+    hr {
+        width: 97%;
     }
     
     hr:last-of-type {
@@ -128,9 +136,6 @@ div > section {
        width: 87.25%;
        margin: 5% auto;
        padding-left: 0;
-/*       background-color: blue;*/
     }
-
-
     
 }
