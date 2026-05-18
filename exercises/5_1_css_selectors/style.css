@@ -68,7 +68,7 @@ li:last-of-type {
 @media (max-width: 680px) {
 
     body {
-        padding-bottom: 100px;
+        padding-bottom: 80px;
     }
     
     h1 {
