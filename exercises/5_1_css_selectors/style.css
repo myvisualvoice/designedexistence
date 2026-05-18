@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+}
+
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+/*  list-style-position: inside;*/
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+p {
+    color: red;
+}
+
+.note {
+    font-size: 20px;
+}
+
+#id-selector-demo {
+    color: green;
+}
+
+li[value="4"] {
+    color: blue;
+}
+
+* {
+/*    text-align: center;*/
+}
+
+h1, h2, p {
+    width: 55%;
+    margin: 3% auto;
+
+}
+
+ol {
+    width: 55%;
+    margin: 2% auto;
+    padding-top: 2.25%;
+    padding-right: 1.75%;
+    padding-bottom: 2.25%;
+    background-color: #eaeaea;
+}
+
+li {
+    margin-bottom: 5%;
+}
+
+li:last-of-type {
+    margin-bottom: 0;
+}
+
+.keyword {
+    padding: 0.95% 1.5% 1.45% 1.5%;
+    font-size: 90%;
+    color: #fff;
+    background-color: #132121;
+    border-radius: 5px;
+}
+
+@media (max-width: 680px) {
+    
+    h1 {
+        width: 93.5%;
+        margin-top: 14%;
+        margin-bottom: 8%;
+    }
+    
+    h2 {
+        width: 93.5%;
+        margin-bottom: 9%;
+    }
+    
+    p {
+        width: 93.5%;
+        margin-bottom: 5.5%;
+        line-height: 150%;
+    }
+    
+    ol {
+        width: 93.5%;
+    }
+    
+    li {
+        margin-bottom: 5.5%;
+        line-height: 150%;
+    }
+    
+    .keyword {
+        padding: 0.95% 2% 1.75% 2%;
+        font-size: 100%;
+        color: #7fffd4;
+        background-color: #08345b;
+    }
+    
+}
+
+@media (min-width: 681px) and (max-width: 896px) {
+    
+    body {
+        padding-bottom: 60px;
+        background-color: #adff2f;
+    }
+    
+    h1 {
+        width: 93.5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        color: #08345b;
+    }
+    
+    h2 {
+        width: 93.5%;
+        margin-bottom: 9%;
+        color: #08345b;
+    }
+    
+    p {
+        width: 93.5%;
+        margin-bottom: 5.5%;
+        line-height: 150%;
+    }
+    
+    ol {
+        width: 93.5%;
+        padding-top: 3.25%;
+        padding-bottom: 3.25%;
+        background-color: #ffe4c4;
+    }
+    
+    li {
+        margin-bottom: 5.5%;
+        line-height: 150%;
+    }
+    
+    .keyword {
+        padding: 0.95% 2% 1.55% 2%;
+        font-size: 100%;
+        font-weight: 700;
+        color: #7fffd4;
+        background-color: #08345b;
+    }
+    
+}
