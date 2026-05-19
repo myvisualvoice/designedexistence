@@ -84,6 +84,7 @@ div > div {
     }
     
     div > div > h2 {
+        text-align: center;
         font-size: 200%;
     }
     
@@ -119,6 +120,11 @@ div > div {
         width: 93.5%;
         margin: 2% auto;
         border: 0;
+    }
+
+    img {
+        width: 95%;
+        height: auto;
     }
     
 }
