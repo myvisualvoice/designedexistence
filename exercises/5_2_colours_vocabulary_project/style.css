@@ -122,6 +122,11 @@ div > div {
         border: 0;
     }
 
+    div > div > h2 {
+        text-align: center;
+        font-size: 200%;
+    }
+
     img {
         width: 95%;
         height: auto;
