@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CSS Positioning Exercise</title>
+
+    <style>
+        /* Write your code here */
+        .blue-box {
+            position: relative;
+            top: 200px;
+            left: 200px;
+            width: 500px;
+            height: 300px;
+            background-color: blue;
+        }
+
+        .red-circle {
+            position: absolute;
+            top: 150px;
+            left: 250px;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        @media (max-width: 680px) {
+            
+            .blue-box {
+                width: 95%;
+                height: 32.5vh;
+                top: 50px;
+                left: 2.5%;
+            }
+            
+            .red-circle {
+                top: 45%;
+                left: 40%;
+            }
+            
+        }
+        
+        @media (min-width: 681px) and (max-width: 896px) {
+            
+            body {
+                padding-bottom:125px;
+                background-color: greenyellow;
+            }
+            
+            .blue-box {
+                top: 25px;
+            }
+            
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="blue-box">
+        
+        <div class="red-circle">
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
