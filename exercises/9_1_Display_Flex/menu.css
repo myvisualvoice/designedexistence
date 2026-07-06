@@ -1,0 +1,75 @@
+
+/* Responsiveness */
+
+@media (max-width: 680px) {
+    
+    .container {
+        display: block;
+        gap: 0;
+        padding: 1.5% 0 3.5% 0;
+    }
+    
+    p {
+        display: inline-block;
+        margin-left: 5%;
+        font-size: 150%;
+    }
+    
+    nav {
+        display: block;
+        width: 100%;
+        height: 100vh;
+        padding-top: 4%;
+        transform: translateX(-100%);
+        transition: transform ease-in 1.1s;
+        background-color: slateblue;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    nav > a {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        color: bisque;
+        margin-bottom: 3.5%;
+        padding: 2% 0;
+        font-size: 125%;
+        font-weight: 700;
+        background-color: limegreen;
+    }
+    
+    a.open {
+        margin-left: 2%;
+        color: slateblue;
+        font-size: 200%;
+    }
+    
+    a.open, a.close {
+        display: inline-block;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    
+    nav:target {
+        transform: translateX(0%);
+    }
+}
+
+@media (min-width: 681px) and (max-width: 896px) {
+    
+    .container {
+        background-color: slateblue;
+    }
+    
+    p {
+        color: lime;
+    }
+    
+    nav > a {
+        color: #fff;
+        font-weight: 700;
+    }
+    
+}
