@@ -1,0 +1,107 @@
+/* Responsiveness */
+
+@media (max-width: 680px) {
+
+    main {
+        width: 100%;
+        overflow: visible;
+    }
+
+    div#box_one {
+        width: 100%;
+        height: 30vh;
+        float: none;
+        background-color: #494949;
+        padding-top: 9%;
+    }
+
+    div#box_two {
+        width: 100%;
+        height: 70vh;
+        float: none;
+        background-color: #494949;
+        padding-bottom: 12.5%;
+    }
+
+    div#box_three {
+        width: 100%;
+        height: 70vh;
+        right: 0;
+        top: 30%;
+        padding-bottom: 12.5%;
+    }
+
+    /* Box One Content */
+
+    button {
+
+        padding: 10px 17px 10px 23px;
+    }
+
+    a {
+        border-left: 60px solid orange;
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+    }
+
+    /* Box Two Content */
+
+    div#box_two_content {
+        width: 420px;
+        height: 420px;
+        padding: 3px;
+    }
+
+    div.square {
+        width: 70px;
+        height: 70px;
+        margin: 6px;
+    }
+
+    /* Box Three Content */
+
+    div#box_three_content {
+        width: 420px;
+        height: 420px;
+        padding: 3px;
+    }
+
+    div.circle {
+        width: 69px;
+        height: 69px;
+        margin: 6px;
+    }
+
+}
+
+@media (min-width: 681px) and (max-width: 896px) {
+
+    /* Box Two Content */
+
+    div#box_two_content {
+        width: 95%;
+        height: 95vh;
+        padding: 5px;
+    }
+
+    div.square {
+        width: 60px;
+        height: 60px;
+        margin: 3px;
+    }
+
+    /* Box Three Content */
+
+    div#box_three_content {
+        width: 95%;
+        height: 95vh;
+        padding: 3px;
+    }
+
+    div.circle {
+        width: 59px;
+        height: 59px;
+        margin: 7px;
+    }
+
+}

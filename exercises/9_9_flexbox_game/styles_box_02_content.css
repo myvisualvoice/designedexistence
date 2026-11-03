@@ -1,0 +1,20 @@
+div#box_two_content {
+    width: 560px;
+    height: 560px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+    border: thin solid #eaeaea;
+    background-color: bisque;
+    box-shadow: 0px 0px 12px 2px #494949;
+}
+
+div.square {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: rebeccapurple;
+}

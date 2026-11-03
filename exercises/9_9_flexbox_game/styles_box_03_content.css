@@ -1,0 +1,24 @@
+div#box_three_content {
+    width: 560px;
+    height: 560px;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    border: thin solid #eaeaea;
+/*
+    left: 30%;
+*/
+/*    background-color: darkgoldenrod;*/
+    transition: transform ease-in 1.1s;
+}
+
+div.circle {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 100%;
+    background-color: orangered;
+    border: thin solid red;
+}

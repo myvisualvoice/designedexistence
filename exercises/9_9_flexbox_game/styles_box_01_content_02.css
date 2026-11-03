@@ -1,0 +1,38 @@
+button {
+    display: inline-block;
+    padding: 15px 29px 15px 21px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: yellow;
+    background-color: #333;
+    border: thin solid #eee;
+    border-radius: 15px;
+    box-shadow: 5px 5px #999;
+}
+
+button:hover {
+    outline: 2px solid orangered;
+    background-color: #494949;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+}
+
+a {
+    display: inline-block;
+    border-right: 85px solid orange;
+    border-top: 45px solid transparent;
+    border-bottom: 45px solid transparent;
+}
+
+button:hover > a:hover {
+    border-right-color: lime;
+}
+
+button:hover > a:active {
+    transform: translateY(4px);
+}
